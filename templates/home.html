@@ -1,0 +1,21 @@
+
+
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+<body>
+  <!--  <h1>Welcome {{Name}}</h1>  -->
+  {% block content %}
+  <form action="product" autocomplete="off">
+      <h1>Product</h1>
+      Mobile <input type ="text" name ="mobile"><br><br>
+      keyboard <input type ="text" name ="keyboard"><br><br>
+      monitor <input type ="text" name ="monitor"><br><br>
+      <input type="submit" value="sumbit">
+  </form>
+  {% endblock %}
+</body>
+
+</html>
